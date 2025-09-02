@@ -34,9 +34,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     
     echo "<h3></h3>";
     if ($temperature > 25) {
-        echo "It's a hot day!<br>";
+        echo "init sarap mag kape!<br>";
     } else {
-        echo "It's a cool day!<br>";
+        echo "lamig sarap mag  ice cream!<br>";
     }
 
     
@@ -55,17 +55,18 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     echo "<h3></h3>";
     switch ($day) {
         case "Monday":
-            echo "Start of the week!<br>";
+            echo "umpisa  pa lang!<br>";
             break;
         case "Wednesday":
-            echo "Halfway through the week!<br>";
+            echo "malapit na!<br>";
             break;
         case "Friday":
-            echo "Weekend is near!<br>";
+            echo "etooo naa!<br>";
             break;
         default:
-            echo "Just another day.<br>";
+            echo "layo pa.<br>";
     }
 }
 ?>
+
 
