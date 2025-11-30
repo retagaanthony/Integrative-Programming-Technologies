@@ -1,0 +1,56 @@
+html, body {
+    height: 100%; /* make sure the body takes full height */
+    margin: 0;    /* remove default margin */
+    font-family: Arial;
+    background: #222;
+    color: white;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;   /* horizontal centering */
+    justify-content: center; /* vertical centering */
+    text-align: center;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+	background-color: #ff9800;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.2s, background-color 0.2s;
+}
+button:hover {
+    transform: scale(1.1);
+    background-color: #ffa733;
+}
+
+#jokeSetup, #jokePunchline {
+    font-size: 20px;
+    margin-top: 20px;
+	 transition: opacity 0.5s ease;
+}
+.fade-out {
+    opacity: 0;
+}
+#jokeContainer {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    max-width: 600px;
+}
+
+
+
+#jokePunchline {
+    font-weight: bold;
+}
