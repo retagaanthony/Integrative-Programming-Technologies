@@ -1,0 +1,83 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial;
+	
+}
+
+/* Background meme */
+#memeContainer {
+    width: 100%;
+    height: 100vh;
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Card styling */
+#jokeCard {
+    background: rgba(0,0,0,0.7);
+    padding: 25px;
+    width: 450px;
+    text-align: center;
+    border-radius: 15px;
+    color: white;
+    backdrop-filter: blur(4px);
+    box-shadow: 0 4px 20px rgba(0,0,0,0.4);
+}
+
+/* Joke text */
+#jokeSetup, #jokePunchline {
+    font-size: 20px;
+    margin-top: 15px;
+    transition: opacity 0.4s ease;
+}
+
+#jokePunchline {
+    font-weight: bold;
+}
+
+/* Button */
+button {
+    margin-top: 20px;
+    padding: 12px 25px;
+    font-size: 16px;
+    background-color: #ff9800;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.2s, background-color 0.2s;
+}
+
+button:hover {
+    transform: scale(1.1);
+    background-color: #ffa733;
+}
+/* Make homepage black & centered */
+#homePage {
+    background: black;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Center text container */
+#homeContainer {
+    text-align: center;
+    color: white;
+}
+
+/* Make title look better */
+#homeContainer h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
